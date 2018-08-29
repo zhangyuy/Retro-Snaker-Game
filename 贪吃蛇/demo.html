@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>贪吃蛇</title>
+    <link rel="stylesheet" href="demo.css">
+</head>
+<body>
+        <!--开始游戏层-->
+    <div class="startPage" id="startPage">
+        <div class="startBtn" id="startBtn"></div>
+    </div>
+
+    <div class="wrapper">
+        <!--游戏层左侧开始按钮-->
+        <div class="left-side">
+            <img src="./img/pause.png" id="startPageAndP">
+        </div>
+        <div class="main">
+            <div class="header">
+                <div class="score">
+                    分数：<span id="score">0</span>
+                </div>
+            </div>
+            <div class="content" id="content">
+                <!--蛇运动区域-->
+            </div>
+        </div>
+    </div>
+
+    <div class="loser" id="lose">
+        <!--弹出层-->
+        <div class="con">
+            <div class="close" id="close"></div>
+            <span class="loserScore" id="loserScore"></span>
+        </div>
+    </div>
+        <script src="demo1.js"></script>
+</body>
+</html>
